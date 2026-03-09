@@ -6751,7 +6751,7 @@ else
                 v801:AdjustSpeed(0)
             end
         else
-            SendNotify("System VR7", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
+            SendNotify("System TRX", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
             return
         end
     end)
@@ -6784,7 +6784,7 @@ else
                 v807:AdjustSpeed(2.5)
             end
         else
-            SendNotify("System VR7", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
+            SendNotify("System TRX", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
             return
         end
     end)
@@ -6817,7 +6817,7 @@ else
                 v813:AdjustSpeed(7)
             end
         else
-            SendNotify("System VR7", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
+            SendNotify("System TRX", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
             return
         end
     end)
@@ -6851,7 +6851,7 @@ else
                 v819:AdjustSpeed(0)
             end
         else
-            SendNotify("System VR7", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
+            SendNotify("System TRX", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
             return
         end
     end)
@@ -6890,7 +6890,7 @@ else
                 Track1:Play(0.1, 1, 1)
             end
         else
-            SendNotify("System VR7", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
+            SendNotify("System TRX", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
             return
         end
     end)
@@ -6924,7 +6924,7 @@ else
                 v833:AdjustSpeed(0)
             end
         else
-            SendNotify("System VR7", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
+            SendNotify("System TRX", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
             return
         end
     end)
@@ -6957,7 +6957,7 @@ else
                 v839:AdjustSpeed(10)
             end
         else
-            SendNotify("System VR7", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
+            SendNotify("System TRX", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R6", 7)
             return
         end
     end)
@@ -6991,7 +6991,7 @@ else
                 v845:AdjustSpeed(0)
             end
         else
-            SendNotify("System VR7", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R15", 7)
+            SendNotify("System TRX", "\239\191\189\216\172\216\168 \216\167\217\134 \216\170\217\131\217\136\217\134 R15", 7)
             return
         end
     end)
@@ -7107,14 +7107,14 @@ else
     end)
     v312.MouseButton1Click:Connect(function()
         if vu311.Ticket_Asset.ImageColor3 ~= Color3.fromRGB(255, 0, 0) then
-            SendNotify("System VR7", "\239\191\189\216\172\216\167\216\161\216\167 \217\130\217\133 \216\168\216\167\216\183\217\129\216\167\216\161 \216\167\217\132\216\180\216\167\216\175\216\177", 5)
+            SendNotify("System TRX", "\239\191\189\216\172\216\167\216\161\216\167 \217\130\217\133 \216\168\216\167\216\183\217\129\216\167\216\161 \216\167\217\132\216\180\216\167\216\175\216\177", 5)
         else
             game:GetService("Lighting").ClockTime = 14
         end
     end)
     v313.MouseButton1Click:Connect(function()
         if vu311.Ticket_Asset.ImageColor3 ~= Color3.fromRGB(255, 0, 0) then
-            SendNotify("System VR7", "\239\191\189\216\172\216\167\216\161\216\167 \217\130\217\133 \216\168\216\167\216\183\217\129\216\167\216\161 \216\167\217\132\216\180\216\167\216\175\216\177", 5)
+            SendNotify("System TRX", "\239\191\189\216\172\216\167\216\161\216\167 \217\130\217\133 \216\168\216\167\216\183\217\129\216\167\216\161 \216\167\217\132\216\180\216\167\216\175\216\177", 5)
         else
             game:GetService("Lighting").ClockTime = 19
         end
@@ -7125,7 +7125,7 @@ else
     v318.MouseButton1Click:Connect(function()
         if not vu44 then
             vu44 = true
-            SendNotify("System VR7", "\239\191\189\216\167\216\177\217\138 \216\170\216\173\217\133\217\138\217\132 \216\167\217\132\216\179\217\131\216\177\216\168\216\170.\nEdited By: Hussien#5033")
+            SendNotify("System TRX", "\239\191\189\216\167\216\177\217\138 \216\170\216\173\217\133\217\138\217\132 \216\167\217\132\216\179\217\131\216\177\216\168\216\170.\nEdited By: Hussien#5033")
             loadstring(game:HttpGet("https://raw.githubusercontent.com/Hm5011/hussain/refs/heads/main/Free%20Dances"))()
         end
     end)
@@ -7138,7 +7138,7 @@ else
         game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, vu38)
     end)
     v317.MouseButton1Click:Connect(function()
-        SendNotify("System VR7", " \217\132\216\167\217\138\217\136\216\172\216\175 \216\167\216\185\217\132\216\167\217\134 \216\173\216\167\217\132\217\138\216\167\n \216\167\216\176\216\167 \216\170\216\168\217\138 \217\134\216\185\217\132\217\134 \217\132\217\131 \216\170\217\129\216\182\217\132 \216\175\216\179\217\131\217\136\216\177\216\175 VR7", 5)
+        SendNotify("System TRX", " \217\132\216\167\217\138\217\136\216\172\216\175 \216\167\216\185\217\132\216\167\217\134 \216\173\216\167\217\132\217\138\216\167\n \216\167\216\176\216\167 \216\170\216\168\217\138 \217\134\216\185\217\132\217\134 \217\132\217\131 \216\170\217\129\216\182\217\132 \216\175\216\179\217\131\217\136\216\177\216\175 VR7", 5)
     end)
     v316.MouseButton1Click:Connect(function()
         if queue_on_teleport then
@@ -7477,7 +7477,7 @@ else
                                 checkuser = function(_, p937)
                                     local v938 = vu142(tostring(p937))
                                     if p937 == "" or v938 == game.Players.LocalPlayer then
-                                        Send("VR7 ON TOP")
+                                        Send("TRX ON TOP")
                                     end
                                 end,
                                 credit = function(_, p939)
@@ -7902,7 +7902,7 @@ else
                         end
                     end)
                     spawn(function()
-                        while getgenv().VR7 do
+                        while getgenv().TRX do
                             wait(500)
                             game:GetService("StarterGui"):SetCore("SendNotification", {
                                 Title = "System VR7",
@@ -7922,7 +7922,7 @@ else
                     }
                 end
                 game:GetService("StarterGui"):SetCore("SendNotification", {
-                    Title = "VR7 Team",
+                    Title = "TRX Team",
                     Text = "\239\191\189\217\134\216\170 \217\133\216\173\217\133\217\138 \217\133\217\134 \216\172\217\133\217\138\216\185 \216\167\217\132\216\167\217\136\216\167\217\133\216\177",
                     Duration = 13,
                     Icon = "rbxassetid://136772242182146"
